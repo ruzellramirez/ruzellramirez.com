@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="relative container mx-auto p-6">
+    <nav className="fixed bg-white container  p-6 left-1/2 -translate-x-1/2 top-0 mx-auto">
       <div className="flex items-center justify-between">
         <div>
           <p>ruzellramirez</p>
@@ -28,7 +28,7 @@ const Navbar = () => {
           href="#"
           className="hidden p-2 px-5 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
         >
-          Get Started
+          Say Hello!
         </a>
 
         <button
